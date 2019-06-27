@@ -60,18 +60,6 @@ $ease-out:		cubic-bezier(0.175, 0.885, 0.32, 1.275);
 /* ==========================================================================
    $Globals
    ========================================================================== */
-html { box-sizing: border-box; }
-
-*,
-*:before,
-*:after { box-sizing: inherit; }
-
-body {
-	background-color: $color-primary;
-	font: 18px/1.277 $font-primary;
-	color: #fff;
-}
-
 main {
 	display: flex;
 	align-items: center;
