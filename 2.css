@@ -176,6 +176,9 @@
  .gallery-item-desc {
 	 padding-top:10px;
 	 font-size: 77%;
+	 white-space: nowrap; 
+	 overflow: hidden;
+	 text-overflow: ellipsis; 
 	 transition: color 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 }
