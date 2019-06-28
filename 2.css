@@ -12,9 +12,7 @@
 	 box-sizing: inherit;
 }
  body {
-	 background-color: #04a777;
 	 font: 18px/1.277 'Jaldi', sans-serif;
-	 color: #fff;
 }
  main {
 	 display: flex;
