@@ -1,0 +1,215 @@
+/* ========================================================================== $Variables ========================================================================== */
+/* $Fonts ========================================================================== */
+/* $Colors ========================================================================== */
+/* $Radius ========================================================================== */
+/* $Easing ========================================================================== */
+/* ========================================================================== $Mixins ========================================================================== */
+/* ========================================================================== $Globals ========================================================================== */
+ html {
+	 box-sizing: border-box;
+}
+ *, *:before, *:after {
+	 box-sizing: inherit;
+}
+ body {
+	 background-color: #04a777;
+	 font: 18px/1.277 'Jaldi', sans-serif;
+	 color: #fff;
+}
+ main {
+	 display: flex;
+	 align-items: center;
+	 min-height: 100vh;
+	 justify-content: center;
+	 text-align: center;
+}
+ .wrap {
+	 max-width: 80%;
+}
+ iframe {
+	 border: 0;
+}
+ a {
+	 color: inherit;
+	 text-decoration: none;
+}
+ :focus {
+	 outline-color: #04a777;
+}
+/* ========================================================================== $Buttons ========================================================================== */
+ .btn {
+	 background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+	 border: 1px solid;
+	 border-radius: 7px;
+	 display: inline-block;
+	 text-align: center;
+	 transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+ .btn:active, .btn:focus, .btn:hover {
+	 transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+ .btn-primary {
+	 background-color: #291720;
+	 border-color: #291720;
+	 padding: 0.5em 0.5em;
+}
+ .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+	 background-color: shade(#291720, 20%);
+}
+ .btn-has-icon .icon {
+	 margin-right: 0.1em;
+	 opacity: 0;
+	 transform: translateX(-100%);
+	 transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+ .btn-has-icon .icon-text {
+	 display: inline-block;
+	 transform: translateX(-0.22em);
+	 transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+ .btn-has-icon:active .icon, .btn-has-icon:focus .icon, .btn-has-icon:hover .icon {
+	 opacity: 1;
+	 transform: translateX(0);
+	 transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+ .btn-has-icon:active .icon-text, .btn-has-icon:focus .icon-text, .btn-has-icon:hover .icon-text {
+	 transform: translateX(0);
+	 transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+/* ========================================================================== $Flexible Media ========================================================================== */
+ .flex-media {
+	 height: 0;
+	 overflow: hidden;
+	 padding-bottom: 56.25%;
+	 position: relative;
+}
+ .flex-media iframe, .flex-media object {
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 bottom: 0;
+	 left: 0;
+	 height: 100%;
+	 width: 100%;
+}
+/* ========================================================================== $Media Object ========================================================================== */
+ .media, .media-body {
+	 overflow: hidden;
+}
+ .media-left .media-img {
+	 float: left;
+	 margin-right: 0.5em;
+}
+ .media-right .media-img {
+	 float: right;
+	 margin-left: 1.277em;
+}
+ .media-img img {
+	 display: block;
+   width: 120px;
+   height: 90px;
+}
+/* ========================================================================== $Magnific Popup (lightbox) ========================================================================== */
+ .popup {
+	 background-color: #fff;
+	 box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+	 color: #1a1b1b;
+	 max-width: 976px;
+	 margin: auto;
+	 overflow: hidden;
+	 position: relative;
+	 width: 85%;
+}
+ .mfp-close {
+	 color: #dedfdf;
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+}
+/* $Interactive Stuff ========================================================================== */
+ .mfp-active.mfp-bg {
+	 opacity: 0;
+	 transition: opacity 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+ .mfp-active .mfp-content {
+	 transition: all 0.24s;
+	 transform: translateY(15%);
+	 opacity: 0;
+}
+ .mfp-ready.mfp-bg {
+	 opacity: 0.85;
+}
+ .mfp-ready .mfp-content {
+	 opacity: 1;
+	 transform: translateY(0);
+}
+ .mfp-removing.mfp-bg {
+	 opacity: 0;
+}
+ .mfp-removing .mfp-content {
+	 opacity: 0;
+	 transform: translateY(15%);
+	 transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+/* ========================================================================== $Gallery ========================================================================== */
+ .gallery-items {
+	 padding: 0 0.31em;
+}
+ .gallery-title {
+	 border-top: 1px solid #dedfdf;
+	 border-bottom: 1px solid #dedfdf;
+	 font-weight: 700;
+	 overflow: hidden;
+	 padding: 0.62em 1.277em;
+}
+ .gallery-item {
+	 padding: 0.31em 0 0.62em;
+	 transition: background 0.25s;
+}
+ .gallery-item:active, .gallery-item:focus, .gallery-item:hover {
+	 background-color: tint(#dedfdf, 12%);
+}
+ .gallery-item + .gallery-item {
+	 border-top: 1px solid #dedfdf;
+}
+ .gallery-item-desc {
+	 font-size: 77%;
+	 transition: color 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+ .gallery-item-desc:after {
+	 content: 'Playing';
+	 display: block;
+	 font-size: 80%;
+	 letter-spacing: 1px;
+	 speak: none;
+	 opacity: 0;
+	 text-transform: uppercase;
+	 transform: translateY(100%);
+	 transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+ .active .gallery-item-desc {
+	 color: #04a777;
+	 transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+ .active .gallery-item-desc:after {
+	 opacity: 1;
+	 transform: translateY(0);
+	 transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+	 speak: normal;
+}
+ @media (min-width: 925px) {
+	 .gallery-main {
+		 float: left;
+		 width: 65%;
+	}
+	 .gallery-items {
+		 margin-top: 2.55em;
+		 overflow-x: hidden;
+		 overflow-y: scroll;
+		 position: absolute;
+		 top: 0;
+		 right: 0;
+		 bottom: 0;
+		 width: 35%;
+	}
+}
