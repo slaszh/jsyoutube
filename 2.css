@@ -102,7 +102,7 @@
 	 float: right;
 	 margin-left: 1.277em;
 }
- .media-img img {
+ .media-img img {float: left;
 	 display: block;
    width: 120px;
    height: 90px;
