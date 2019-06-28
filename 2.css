@@ -176,7 +176,7 @@
  .gallery-item-desc {
 	 font-size: 77%;
 	 transition: color 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	 overflow: hidden;
+	 overflow: visible;
 }
  .gallery-item-desc:after {
 	 content: 'Playing';
