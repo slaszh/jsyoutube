@@ -133,7 +133,8 @@
 	 transition: all 0.24s;
 	 transform: translateY(15%);
 	 opacity: 0;
-	 top:0;
+	 position: absolute;
+	 top: 0;
 }
  .mfp-ready.mfp-bg {
 	 opacity: 0.85;
