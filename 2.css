@@ -61,7 +61,7 @@
 	color:#fff;
 }
  .btn-has-icon .icon-text {
-	 display: inline-block;color:#fff;
+	 display: inline-block;
 	 transform: translateX(-0.22em);
 	 transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
