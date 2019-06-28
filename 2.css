@@ -79,6 +79,7 @@
 	 height: 0;
 	 overflow: hidden;
 	 position: relative;
+	 padding-bottom: 56.25%;
 }
  .flex-media iframe, .flex-media object {
 	 position: absolute;
@@ -91,6 +92,8 @@
 }
 /* ========================================================================== $Media Object ========================================================================== */
  .media, .media-body {
+	 position: absolute;
+	 top: 0;
 	 overflow: hidden;
 }
  .media-left .media-img {
