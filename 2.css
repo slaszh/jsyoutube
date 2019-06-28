@@ -153,6 +153,9 @@
  .gallery-items {
 	 padding: 0 0.31em;
 }
+ .gallery-items a{
+	 color:red;
+}
  .gallery-title {
 	 border-top: 1px solid #dedfdf;
 	 border-bottom: 1px solid #dedfdf;
