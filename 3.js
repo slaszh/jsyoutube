@@ -91,7 +91,7 @@
 				listItem 	+= 		'<div class=\"media-img gallery-item-thumb\">';
 				listItem 	+=			'<img src=\"https://player.sharemydrive.link/upload/cover/drakorcat.jpg'+ '\"/>';
 				listItem	+= 		'</div>';
-				listItem	+= 		'<div class=\"media-body gallery-item-desc\">';
+				listItem	+= 		'<div class=\"gallery-item-desc\">';
 				listItem	+= 			videoList[index].vidDesc;
 				listItem	+= 		'</div>';
 				listItem	+= 	'</div>';
