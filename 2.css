@@ -154,14 +154,15 @@
 	 padding: 0 0.31em;
 }
  .gallery-items a{
-	 color:red;
+	 color:red;padding: 2em 2em;
+	 margin-top: 10px;
 }
  .gallery-title {
 	 border-top: 1px solid #dedfdf;
 	 border-bottom: 1px solid #dedfdf;
 	 font-weight: 700;
 	 overflow: hidden;
-	 padding: 1em 1.277em;
+	 padding: 2em 2em;
 	 margin-top: 10px;
 }
  .gallery-item {
