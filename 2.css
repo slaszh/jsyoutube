@@ -224,9 +224,12 @@
 @media (max-width:500px){
 	.mfp-active .mfp-content {
 	vertical-align: top;
+		z-index: 99;
+		width:100%;
 }
 	.gallery-main {
 		 float: left;
 		 width: 100%;
+		
 	}
 }
