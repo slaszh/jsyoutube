@@ -57,11 +57,11 @@
 	 transform: translateX(-100%);
 	 transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
-.icon-text a{
+.icon-text {
 	color:#fff;
 }
  .btn-has-icon .icon-text {
-	 display: inline-block;
+	 display: inline-block;color:#fff;
 	 transform: translateX(-0.22em);
 	 transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
