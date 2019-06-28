@@ -11,9 +11,6 @@
  *, *:before, *:after {
 	 box-sizing: inherit;
 }
- body {
-	 font: 18px/1.277 'Jaldi', sans-serif;
-}
  main {
 	 display: flex;
 	 align-items: center;
