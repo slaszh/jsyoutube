@@ -92,8 +92,6 @@
 }
 /* ========================================================================== $Media Object ========================================================================== */
  .media, .media-body {
-	 position: absolute;
-	 top: 0;
 	 overflow: hidden;
 }
  .media-left .media-img {
@@ -222,4 +220,7 @@
 		 bottom: 0;
 		 width: 35%;
 	}
+	 .mfp-content {
+	 vertical-align: top;
+}
 }
