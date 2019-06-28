@@ -151,19 +151,18 @@
 }
 /* ========================================================================== $Gallery ========================================================================== */
  .gallery-items {
-	 padding: 0 0.31em;
+	 padding: 0.62em 1.277em;
 }
  .gallery-items a{
 	 color:red;padding: 2em 2em;
-	 margin-top: 10px;
+	 margin-top: 2em;
 }
  .gallery-title {
 	 border-top: 1px solid #dedfdf;
 	 border-bottom: 1px solid #dedfdf;
 	 font-weight: 700;
 	 overflow: hidden;
-	 padding: 2em 2em;
-	 margin-top: 10px;
+	 padding: 0.62em 1.277em;
 }
  .gallery-item {
 	 padding: 0.31em 0 0.62em;
