@@ -175,14 +175,13 @@
 }
  .gallery-item-desc {
 	 padding-top:10px;
-	 margin-top:10px;
-	 top:10px;
 	 font-size: 77%;
 	 transition: color 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 }
  .gallery-item-desc:after {
 	 content: 'Playing';
+	 padding-top:10px;
 	 display: block;
 	 font-size: 80%;
 	 letter-spacing: 1px;
