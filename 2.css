@@ -221,3 +221,16 @@
 		 width: 35%;
 	}
 }
+@media (max-width:500px){
+	.mfp-active .mfp-content {
+	 transition: all 0.24s;
+	 transform: translateY(15%);
+	 opacity: 0;
+	vertical-align: top;
+}
+	.gallery-main {
+		 float: left;
+		 width: 100%;
+		top: 0;
+	}
+}
