@@ -161,7 +161,8 @@
 	 border-bottom: 1px solid #dedfdf;
 	 font-weight: 700;
 	 overflow: hidden;
-	 padding: 0.62em 1.277em;
+	 padding: 1em 1.277em;
+	 margin-top: 10px;
 }
  .gallery-item {
 	 padding: 0.31em 0 0.62em;
