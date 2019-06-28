@@ -110,7 +110,7 @@
 
 				mainVid 	+= '<div class=\"' + self.options.galleryMainClass + '\">';
 				mainVid 	+= 		'<div class=\"flex-media\">';
-				mainVid 	+= 			'<iframe src=\"https://player.sharemydrive.link/player/' + videoList[0].videoId + '\" seamless>';
+				mainVid 	+= 			'<iframe src=\"https://player.sharemydrive.link/player/' + videoList[0].videoId + '\" allowfullscreen="allowfullscreen">';
 				mainVid		+= 		'</div>';
 				mainVid 	+= '</div>';
 
