@@ -11,6 +11,9 @@
  *, *:before, *:after {
 	 box-sizing: inherit;
 }
+ body {
+
+}
  main {
 	 display: flex;
 	 align-items: center;
@@ -57,7 +60,6 @@
 	 transform: translateX(-100%);
 	 transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
-
  .btn-has-icon .icon-text {
 	 display: inline-block;
 	 transform: translateX(-0.22em);
@@ -194,10 +196,6 @@
 	 speak: normal;
 }
  @media (min-width: 925px) {
-	 .popup {
-	 	top:0;
-	 	width:100%;
-	 }
 	 .gallery-main {
 		 float: left;
 		 width: 65%;
