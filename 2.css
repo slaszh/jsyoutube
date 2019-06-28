@@ -151,11 +151,10 @@
 }
 /* ========================================================================== $Gallery ========================================================================== */
  .gallery-items {
-	 padding: 0.62em 1.277em;
+	 padding: 0 0.31em;
 }
  .gallery-items a{
-	 color:red;padding: 2em 2em;
-	 margin-top: 2em;
+	 color:red;
 }
  .gallery-title {
 	 border-top: 1px solid #dedfdf;
@@ -175,9 +174,10 @@
 	 border-top: 1px solid #dedfdf;
 }
  .gallery-item-desc {
+	 top:10px;
 	 font-size: 77%;
 	 transition: color 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	 overflow: visible;
+
 }
  .gallery-item-desc:after {
 	 content: 'Playing';
