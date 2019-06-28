@@ -194,6 +194,10 @@
 	 speak: normal;
 }
  @media (min-width: 925px) {
+	 .popup {
+	 	top:0;
+	 	width:100%;
+	 }
 	 .gallery-main {
 		 float: left;
 		 width: 65%;
