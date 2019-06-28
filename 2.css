@@ -102,7 +102,7 @@
 	 float: right;
 	 margin-left: 1.277em;
 }
- .media-img img {float: left;
+ .media-img img {
 	 display: block;
    width: 120px;
    height: 90px;
@@ -173,7 +173,7 @@
  .gallery-item + .gallery-item {
 	 border-top: 1px solid #dedfdf;
 }
- .gallery-item-desc {
+ .gallery-item-desc {display: block;
 	 width:200px;
 	 padding-top:10px;
 	 font-size: 77%;
