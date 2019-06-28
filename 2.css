@@ -174,12 +174,13 @@
 	 border-top: 1px solid #dedfdf;
 }
  .gallery-item-desc {
+	 display: inline-block;
 	 padding-top:10px;
 	 font-size: 77%;
 	 transition: color 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	 max-width:200px;
 	 height:50px;
-	 display: block;
+	 
 
 }
  .gallery-item-desc:after {
