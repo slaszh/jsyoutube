@@ -221,6 +221,7 @@
 		 width: 35%;
 	}
 	 .mfp-content {
+		 position:absolute;
 	 vertical-align: top;
 }
 }
