@@ -50,6 +50,7 @@
 	 background-color: #291720;
 	 border-color: #291720;
 	 padding: 0.5em 0.5em;
+	 color:#fff;
 }
  .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
 	 background-color: shade(#291720, 20%);
